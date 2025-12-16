@@ -1,1 +1,15 @@
 token
+# Ignore all kernel modules
+*.ko
+*.mod
+*.mod.c
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore build artifacts and temporary files
+modules.order
+Module.symvers
+.*.cmd
+.tmp_versions/
